@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
- .wrapper{
+ #wrapper{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pinkbutton{
+.btn-pink{
     background-color:#e84949;;
     padding: 0.8rem 2.3rem;
     color: white;
@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.pinkbutton::before{
+.btn-pink::before{
     content: "";
     background-color: #1f1f1f;
     position:absolute;
@@ -38,9 +38,9 @@
     z-index: -1;
 }
 
-.pinkbutton :hover::before{
+.btn-pink:hover::before{
     transform: scaleX(1);
 }
-.pinkbutton:hover{
+.btn-pink:hover{
     color: #fff;
 }
